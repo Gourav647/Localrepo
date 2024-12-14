@@ -1,5 +1,5 @@
 const btn = document.getElementById("btn");
 
 btn.addEventListener("click", () => {
-    console.log("Hello world")
+    console.log("Hello world") 
 })
