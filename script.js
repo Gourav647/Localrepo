@@ -3,12 +3,9 @@ const imgUrl = null;
 const data = async () => {
     const promise = await fetch("https://picsum.photos/v2/list");
     const respone = await promise.json();
-    console.log(respone);
-    imgUrl = respone
+    imgUrl = respone;
+    console.log(imgUrl);
 }
 
-imges.forEach(element => {
-    
-});
 
 data();
